@@ -1,6 +1,6 @@
 cask "openmissioncontrol" do
-  version "1.0,7"
-  sha256 "88f9727f040b72edc5de60d1e6618d175ee9b7ddb9a4fa84519ba6bb22da6de5"
+  version "1.0,8"
+  sha256 "fe556c8574deead52e8e8b810267fe7f45d8fb4432625574382b372eaefa195a"
 
   url "https://github.com/nohackjustnoobb/OpenMissionControl/releases/download/v#{version.csv.first}%2B#{version.csv.second}/OpenMissionControl.dmg"
   name "Open Mission Control"
