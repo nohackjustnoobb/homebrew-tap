@@ -1,11 +1,13 @@
 cask "openmissioncontrol" do
-  version "1.0,11"
-  sha256 "7471aaf547382a28e515123b67e4027d1769203f8c4e7c3856c277dfc4568baf"
+  version "1.1.0"
+  sha256 "34e6c628bcc31648d342468f65c4caea1d9ec569fc3e988615fd8fb2b50b5ef0"
 
-  url "https://github.com/nohackjustnoobb/OpenMissionControl/releases/download/v#{version.csv.first}%2B#{version.csv.second}/OpenMissionControl.dmg"
+  url "https://github.com/nohackjustnoobb/OpenMissionControl/releases/download/v#{version}/OpenMissionControl.dmg"
   name "Open Mission Control"
   desc "Open-source alternative to Mission Control Plus"
   homepage "https://github.com/nohackjustnoobb/OpenMissionControl"
+
+  depends_on :macos
 
   app "Open Mission Control.app"
 
